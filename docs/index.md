@@ -31,7 +31,7 @@ display(
         stroke: "black",
         fill: "white",
         strokeOpacity: 0.3,
-        fillOpacity: 0.08,
+        fillOpacity: 0.03,
         strokeWidth: 0.5,
       }),
       // white axes
@@ -69,7 +69,7 @@ display(
 Getting climate data for a US city from the NOAA isn't super complicated, but
 it does have a lot of steps.
 
-If you want to skip this rigamarole and just [download the data I used](TKTK), go ahead.
+If you want to skip this rigamarole and just [download the data I used](https://github.com/llimllib/climatecycles/raw/refs/heads/main/docs/data/portland-1940-2023-noaa-data.csv), go ahead.
 
 If you want to get data for your own city:
 
@@ -93,7 +93,7 @@ I'd love to find a way to get this from an API instead, because this is painful,
 
 ## Save the data
 
-Once you get an email with your data link, or you download the [data I provided](TKTK), save it somewhere that you can access it from Plot.
+Once you get an email with your data link, or you download the [data I provided](https://github.com/llimllib/climatecycles/raw/refs/heads/main/docs/data/portland-1940-2023-noaa-data.csv), save it somewhere that you can access it from Plot.
 
 I'm using observable framework to write this, so I saved it to the `docs/data` directory and opened it as a `FileAttachment`:
 
@@ -221,7 +221,7 @@ display(
         stroke: "black",
         fill: "white",
         strokeOpacity: 0.3,
-        fillOpacity: 0.08,
+        fillOpacity: 0.03,
         strokeWidth: 0.5,
       }),
       // white axes
